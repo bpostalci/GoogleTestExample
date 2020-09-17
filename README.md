@@ -3,7 +3,9 @@ A simple example with Google's C++ test framework
 
 # build (Linux)
 mkdir build && cd build
+
 cmake ..
+
 make
 
 # run
