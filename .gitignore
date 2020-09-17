@@ -1,0 +1,42 @@
+.idea
+!build/*/Makefile
+.vscode
+libs/third_party/QuantLib*
+proxygen/_build
+cmake-build-debug
+
+# cmake ignores
+*.o
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+*.cbp
+build
+memcheck.txt
+
+# go ignores
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.bin
+*.bin~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
